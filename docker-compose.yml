@@ -6,3 +6,4 @@ services:
       - "8000:80"
     volumes:
       - ./app:/usr/share/nginx/html
+    restart: always
